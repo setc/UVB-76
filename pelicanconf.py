@@ -4,11 +4,17 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Sebastian'
 SITENAME = u'UVB-76'
-SITEURL = ''
+SITESUBTITLE = u'Radiando futuro'
+SITEURL = 'http://UVB-76.github.com'
 
-TIMEZONE = 'Europe/Paris'
-
+TIMEZONE = 'Europe/London'
+DEFAULT_DATE_FORMAT = '%a %d %b %Y at %I:%M%p'
 DEFAULT_LANG = u'es'
+
+#Aesthetics and blog design
+DEFAULT_PAGINATION = 5
+NUM_FULL_ARTICLS = 1
+TYPOGRIFY = True
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -22,10 +28,14 @@ LINKS =  (('Pelican', 'http://getpelican.com/'),
           ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
-
-DEFAULT_PAGINATION = 5
+SOCIAL = (('Twitter', 'https://twitter.com/infrafrequency'),
+          ('Github', 'https://github.com/SebastianTorrente'),
+          ('Tumblr', 'https://infrafrequency.tumblr.com/'))
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+#Images and robots needs no parse
+STATIC_PATHS = [
+    'pictures',
+    'extra/robots.txt']
