@@ -14,7 +14,6 @@ DEFAULT_LANG = u'es'
 #Aesthetics and blog design
 DEFAULT_PAGINATION = 5
 NUM_FULL_ARTICLS = 1
-TYPOGRIFY = True
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
