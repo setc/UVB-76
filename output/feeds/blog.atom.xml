@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>UVB-76</title><link href="http://UVB-76.github.com/" rel="alternate"></link><link href="http://UVB-76.github.com/feeds/blog.atom.xml" rel="self"></link><id>http://UVB-76.github.com/</id><updated>2014-03-04T19:00:00+00:00</updated><entry><title>Emisión en prueba</title><link href="http://UVB-76.github.com/emision-en-prueba.html" rel="alternate"></link><updated>2014-03-04T19:00:00+00:00</updated><author><name>Reverendo Killboy</name></author><id>tag:UVB-76.github.com,2014-03-04:emision-en-prueba.html</id><summary type="html">&lt;p&gt;Esto es un post de relleno, con mucho lorem ipson para ver si la nueva forma de hacer setup para publicar en github pages funciona de una vez. La idea es hacer lo siguiente:
+-Editar donde sea los post en Markdown
+-Subirlos a github
+-Conectar a pythonanywhere y genera el blog desde allí
+-Usar ghp pages para resubir a github y tener tachán tachán, el blog de marras&lt;/p&gt;
+&lt;p&gt;Esperemos que funcione.&lt;/p&gt;</summary><category term="prueba"></category><category term="blog"></category><category term="inicios"></category></entry></feed>

@@ -5,7 +5,6 @@ from __future__ import unicode_literals
 AUTHOR = u'Sebastian'
 SITENAME = u'UVB-76'
 SITESUBTITLE = u'Radiando futuro'
-SITEURL = 'http://UVB-76.github.com'
 
 TIMEZONE = 'Europe/London'
 DEFAULT_DATE_FORMAT = '%a %d %b %Y at %I:%M%p'
